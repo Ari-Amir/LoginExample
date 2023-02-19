@@ -20,7 +20,6 @@ class ProfileFragment : Fragment(), StateListener {
     private lateinit var binding: FragmentProfileBinding
     private val viewModel by viewModels<ProfileViewModel>()
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

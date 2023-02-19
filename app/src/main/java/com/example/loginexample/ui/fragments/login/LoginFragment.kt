@@ -19,7 +19,6 @@ class LoginFragment : Fragment(), StateListener {
     private lateinit var binding: FragmentLoginBinding
     private val viewModel by viewModels<AuthViewModel>()
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

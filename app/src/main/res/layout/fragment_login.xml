@@ -15,7 +15,6 @@
         android:layout_height="match_parent"
         tools:context=".ui.fragments.login.LoginFragment">
 
-        <!-- region $ArchBackgroundRegion-->
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline1"
             android:layout_width="match_parent"
@@ -38,7 +37,6 @@
 
         </io.github.florent37.shapeofview.shapes.ArcView>
 
-        <!--endregion-->
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardView_login"
@@ -172,7 +170,7 @@
             android:elevation="11dp"
             android:indeterminate="true"
             android:indeterminateTint="@color/primaryColor"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

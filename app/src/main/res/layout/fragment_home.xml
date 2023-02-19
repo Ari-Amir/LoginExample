@@ -12,7 +12,6 @@
             android:layout_height="match_parent"
             tools:context=".ui.fragments.home.HomeFragment">
 
-            <!-- region $AuthRegion-->
             <TextView
                 android:id="@+id/textView_hello"
                 android:layout_width="wrap_content"

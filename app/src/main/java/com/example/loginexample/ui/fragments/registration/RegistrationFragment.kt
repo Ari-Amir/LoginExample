@@ -34,7 +34,6 @@ class RegistrationFragment : Fragment(), StateListener {
             it.findNavController().navigateUp()
         }
 
-
         return binding.root
     }
 
@@ -48,7 +47,7 @@ class RegistrationFragment : Fragment(), StateListener {
         requireActivity().toast(message!!)
         log(message)
 
-        findNavController().navigate(R.id.registration_to_home) //Navigate to home fragment upon successful registration
+        findNavController().navigate(R.id.registration_to_home)
     }
 
     override fun onError(message: String) {
